@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background-color: #eccbb8; /* メイン背景の色 */
+}
+.heder{
+    text-align: center;
+}
+.notemain {
+    text-align: left;
+    margin-top: 30px;
+}
+table {
+    border-collapse: collapse; /* セルの境界線を共有 */
+}
+
+/* ▼各セルの装飾 */
+td {
+    border: 5px solid black; /* 表の罫線(=セルの枠線) */
+    padding: 1em 1em; /* セル内側の余白量 */
+    color: black; /* セル内のテキストの色を黒に設定 */
+}
