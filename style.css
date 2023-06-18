@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+    background-color: #eccbb8; /* メイン背景の色 */
+}
+
+.Heder {
+    text-align: center;
+}
+
+.note{
+    text-align: right;
+
+}
+.Page {
+    text-align: center;
+}
+
+/* ▼表全体の装飾 */
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; /* セルの境界線を共有 */
+}
+
+/* ▼各セルの装飾 */
+td {
+    border: 5px solid black; /* 表の罫線(=セルの枠線) */
+    padding: 1em 1em; /* セル内側の余白量 */
+    color: black; /* セル内のテキストの色を黒に設定 */
+}
+
+table caption {
+    color: red; /* キャプションのテキスト色を赤に設定 */
+}
+
+/* ▼特記のお知らせ */
+td.special {
+    color: red; /* 特記のお知らせセルのテキスト色を赤に設定 */
+    font-size: 30px;
+}
+td.day{
+    text-align: right;
+}
+.Page4{
+    margin-top: 30px;
+}
+.Copy {
+    text-align: right;
+}
